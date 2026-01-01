@@ -5,7 +5,13 @@ As a **Computer Engineering Student**, I developed this project to demonstrate a
 
 ## 🏗️ Project Structure
 * **[sql/](./sql/):** Contains the T-SQL scripts for data exploration, including CTEs, Joins, and Window Functions.
-* **[data/](./data/):** Cleaned datasets (originally processed in Excel).
+
+* **[Data Source]
+The datasets used in this project were provided in Excel (.xlsx) format and include:
+- COVID-19 deaths data
+- COVID-19 vaccination data
+The data was cleaned and analyzed using SQL Server before visualization in Tableau.
+
 * **[tableau/](./tableau/):** High-resolution export of the final dashboard.
 * **[screenshots/](./screenshots/):** Visual evidence of the SQL environment and query results.
 
