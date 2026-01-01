@@ -1,6 +1,7 @@
 -- =========================================================================================
--- Project: COVID-19 Analysis 
--- Description: Combining Deaths & Vaccinations datasets to find trends by country/continent
+-- Project: COVID-19 Data Analysis 
+-- Auhtor:Bimal Shahi
+--Tools:SQL Server
 -- =========================================================================================
 
 -- Just a quick check to see if the data imported correctly (filtering out the summaries)
@@ -138,4 +139,5 @@ FROM portfoilioproject..CovidDeaths d
 JOIN portfoilioproject..CovidVaccinations v
 	on d.location = v.location
     and d.date = v.date
+
 where d.continent IS NOT NULL;
